@@ -32,9 +32,7 @@ end
 def void_last_transaction
   
    
-   if(self.items.length == 0)
-        self.total = 0.0
-        return self.total
+
     else 
         self.total -= self.last_item
         self.items.pop
